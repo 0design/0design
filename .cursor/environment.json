@@ -1,0 +1,14 @@
+{
+  "name": "0leg-design GitHub profile README",
+  "install": "pip3 install --user --upgrade grip pymarkdownlnt",
+  "terminals": [
+    {
+      "name": "readme-preview",
+      "command": "python3 -m grip README.md 0.0.0.0:6419",
+      "description": "Live GitHub-flavored preview of README.md (the profile page) served at http://localhost:6419. It re-renders the file on each page refresh."
+    }
+  ],
+  "ports": [
+    { "name": "readme-preview", "port": 6419 }
+  ]
+}
