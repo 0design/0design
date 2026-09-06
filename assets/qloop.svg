@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="724" height="380" viewBox="0 0 724 380" role="img" aria-label="qloop">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c0e"/>
+      <stop offset="100%" stop-color="#121214"/>
+    </linearGradient>
+  </defs>
+  <rect width="724" height="380" fill="url(#bg)"/>
+  <rect x="24" y="24" width="676" height="332" rx="16" fill="#18181b" stroke="#27272a"/>
+  <circle cx="120" cy="110" r="48" fill="none" stroke="#c8ff00" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="120" cy="110" r="22" fill="#c8ff00" fill-opacity="0.15"/>
+  <path d="M200 90 H520" stroke="#3f3f46" stroke-width="2"/>
+  <path d="M200 130 H460" stroke="#3f3f46" stroke-width="2"/>
+  <path d="M200 170 H500" stroke="#3f3f46" stroke-width="2"/>
+  <rect x="200" y="210" width="180" height="36" rx="8" fill="#c8ff00" fill-opacity="0.12" stroke="#c8ff00" stroke-opacity="0.5"/>
+  <text x="290" y="233" text-anchor="middle" fill="#c8ff00" font-family="ui-monospace, Menlo, monospace" font-size="14">qloop run</text>
+  <text x="362" y="300" text-anchor="middle" fill="#fafafa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="40" font-weight="650">qloop</text>
+  <text x="362" y="338" text-anchor="middle" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">YAML loops for agents</text>
+</svg>
