@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="380" viewBox="0 0 1448 380" role="img" aria-label="Oleg.Design open source">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c0e"/>
+      <stop offset="55%" stop-color="#141418"/>
+      <stop offset="100%" stop-color="#0a0a0c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8ff00" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#c8ff00" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#c8ff00" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1448" height="380" fill="url(#bg)"/>
+  <rect x="0" y="318" width="1448" height="2" fill="url(#accent)"/>
+  <circle cx="120" cy="90" r="120" fill="#c8ff00" fill-opacity="0.06"/>
+  <circle cx="1320" cy="290" r="160" fill="#ffffff" fill-opacity="0.03"/>
+  <text x="724" y="150" text-anchor="middle" fill="#fafafa" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="54" font-weight="650" letter-spacing="-1.5">Loops agents finish.</text>
+  <text x="724" y="210" text-anchor="middle" fill="#fafafa" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="54" font-weight="650" letter-spacing="-1.5">Design systems they can read.</text>
+  <text x="724" y="272" text-anchor="middle" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="500">qloop · AI-Native Design Framework</text>
+  <text x="724" y="340" text-anchor="middle" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">placeholder hero  swap for brand art</text>
+</svg>
