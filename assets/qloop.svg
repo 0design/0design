@@ -1,19 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="724" height="380" viewBox="0 0 724 380" role="img" aria-label="qloop">
+<svg xmlns="http://www.w3.org/2000/svg" width="724" height="420" viewBox="0 0 724 420" role="img" aria-label="qloop">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0c0c0e"/>
-      <stop offset="100%" stop-color="#121214"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="724" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a0c"/>
+      <stop offset="45%" stop-color="#121218"/>
+      <stop offset="100%" stop-color="#08080a"/>
     </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="18%" r="48%">
+      <stop offset="0%" stop-color="#8A38F5" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8A38F5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="18%" cy="88%" r="42%">
+      <stop offset="0%" stop-color="#F4FF91" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F4FF91" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <rect width="724" height="420" rx="32" ry="32"/>
+    </clipPath>
   </defs>
-  <rect width="724" height="380" fill="url(#bg)"/>
-  <rect x="24" y="24" width="676" height="332" rx="16" fill="#18181b" stroke="#27272a"/>
-  <circle cx="120" cy="110" r="48" fill="none" stroke="#c8ff00" stroke-width="3" stroke-dasharray="8 6"/>
-  <circle cx="120" cy="110" r="22" fill="#c8ff00" fill-opacity="0.15"/>
-  <path d="M200 90 H520" stroke="#3f3f46" stroke-width="2"/>
-  <path d="M200 130 H460" stroke="#3f3f46" stroke-width="2"/>
-  <path d="M200 170 H500" stroke="#3f3f46" stroke-width="2"/>
-  <rect x="200" y="210" width="180" height="36" rx="8" fill="#c8ff00" fill-opacity="0.12" stroke="#c8ff00" stroke-opacity="0.5"/>
-  <text x="290" y="233" text-anchor="middle" fill="#c8ff00" font-family="ui-monospace, Menlo, monospace" font-size="14">qloop run</text>
-  <text x="362" y="300" text-anchor="middle" fill="#fafafa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="40" font-weight="650">qloop</text>
-  <text x="362" y="338" text-anchor="middle" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">YAML loops for agents</text>
+  <g clip-path="url(#clip)">
+    <rect width="724" height="420" fill="url(#bg)"/>
+    <rect width="724" height="420" fill="url(#glow)"/>
+    <rect width="724" height="420" fill="url(#glow2)"/>
+    <rect x="0.5" y="0.5" width="723" height="419" rx="31.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.06"/>
+
+    <text x="48" y="58" fill="#909099" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="0.16em">OPEN SOURCE</text>
+
+    <text x="48" y="128" fill="#F2F2F4" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="56" font-weight="560" letter-spacing="-0.055em">qloop</text>
+    <text x="48" y="168" fill="#A6A6B0" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" letter-spacing="-0.02em">Run a loop from YAML.</text>
+    <text x="48" y="196" fill="#909099" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="16">One command. No database. No server.</text>
+
+    <rect x="48" y="248" width="628" height="56" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="72" y="282" fill="#F2F2F4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">npm i -g qloops</text>
+    <text x="72" y="304" fill="#909099" font-family="ui-monospace, Menlo, monospace" font-size="12">qloop catalog · qloop run loops/content-feed.yaml</text>
+
+    <circle cx="620" cy="276" r="6" fill="#8A38F5"/>
+    <circle cx="644" cy="276" r="6" fill="#C45FD4"/>
+    <circle cx="668" cy="276" r="6" fill="#F4FF91"/>
+  </g>
 </svg>
