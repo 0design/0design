@@ -1,16 +1,13 @@
-## Hi there 👋
+<p align="center">
+  <a href="https://github.com/0leg-design/qloop">qloop</a>
+  ·
+  <a href="https://github.com/0leg-design/ai-native-design-framework">AINDF</a>
+</p>
 
-<!--
-**0leg-design/0leg-design** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Open source
 
-Here are some ideas to get you started:
+**[qloop](https://github.com/0leg-design/qloop)** — run a loop from a YAML file. One command, no database, no server.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[AINDF](https://github.com/0leg-design/ai-native-design-framework)** — a spec for design systems an agent can discover, generate, and validate.
+
+More OSS will join this row.
